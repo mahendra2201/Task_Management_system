@@ -61,11 +61,7 @@ Enable Less Secure Apps for your Gmail account or set up an App Password if usin
 
 Running the Application
 
-Run the Flask application using the following command:
-
-python app.py
-
-The application will be available at http://127.0.0.1:5001.
+Run the Flask application using the following command: python app.py
 
 Application Routes
 
