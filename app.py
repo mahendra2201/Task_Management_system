@@ -25,7 +25,7 @@ def mainpage():
         global verify_otp
         verify_otp = str(otp1)
 
-        from_email = 'mannem.mahendra2407@gmail.com'
+        from_email = 'your email'
         to_email = email
         subject = 'OTP For Validation'
         body = f'OTP for Validation is {verify_otp}'
@@ -39,7 +39,7 @@ def mainpage():
         try:
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login(from_email, 'dsju jftf aqnd wtje')  # Update with actual credentials
+            server.login(from_email, 'your password')  # Update with actual credentials
             server.send_message(msg)
             server.quit()
         except Exception as e:
